@@ -13,7 +13,7 @@ def calculate_capacity(config):
 
     # Initialize to count active nodes
     active_nodes_count = 0
-    
+
     # Loop through each item and count them
     for count,node in enumerate(active_nodes):
         active_nodes_count = count + 1
@@ -34,3 +34,4 @@ def calculate_capacity(config):
 
 # Execute the audit tool
 calculate_capacity(cluster_config)
+
