@@ -34,7 +34,7 @@ The program should:
 
 4. Display a personalized configuration summary using an F-String.
 5. 
-## Example Input
+## Input
 
 ```text
 Enter your name: Alice
@@ -42,7 +42,7 @@ Enter your age: 25
 Are you a developer? (yes/no): yes
 ```
 
-## Example Output
+## Expected Output
 
 ```text
 ====================================
