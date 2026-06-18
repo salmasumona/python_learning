@@ -5,7 +5,7 @@ This repository contains solutions for five Python programming labs focused on c
 
 ## Lab 1: The Smart Survey Onboarding Engine
 
-This Python program collects user information and automatically assigns an access tier based on predefined business rules
+This Python program building an entry portal for an automated processing system. The script must interview a human user, gather their basic profile info, and evaluate their clearance tier based on strict age rules.
 
 
 ## Requirements
@@ -86,11 +86,10 @@ End
 ## Learning Objectives
 
 
-* Taking user input with `input()`
-* Type casting using `int()`
+* input() capturing and Type Casting (int)
 * Working with Boolean values
-* Using `if`, `elif`, and `else`
-* Creating formatted output using F-Strings
+* Conditionals (if-elif-else) and Logic Operators (and, or)
+* String Interpolation (f-strings)
 
 ---
 
@@ -173,7 +172,10 @@ Cluster Utilization: 62.50%
 
 ## Lab 3: The Deployment Budget Optimizer
 
-The Deployment Budget Optimizer is a Python program designed to estimate the monthly cost of running cloud server instances and determine whether the deployment stays within a specified budget. 
+
+
+The Deployment Budget Optimizer is a Python program that dynamically figures out the total monthly operational cost of setting up server groups and raises flags if things get too expensive. 
+
 ---
 
 
@@ -275,8 +277,7 @@ REJECTED: Budget Exceeded by $2344.00!
 
 ## Learning Objectives
 
-* Functions with Parameters
-* Return Values
+* Functions with ParametersFunctions with Parameters and Return values
 * Arithmetic Operations
 * Comparative conditions (> ,<=)
 * Calculated cost against the budget_cap:
@@ -358,6 +359,102 @@ Sanitized Production Input:
 * Appending dynamic modifications to lists
 
 ---
+
+## Lab 5: System Alert Flag Evaluator
+
+
+The System Alert Flag Evaluator is a Python program that simulates a basic infrastructure monitoring system. It  developing an automated error monitoring daemon. It continuously looks at a series of active machine flags to evaluate whether an urgent maintenance engineer needs to be page-alerted out of bed.
+
+---
+
+
+## Features
+
+* Evaluates multiple monitoring conditions
+* Uses compound boolean expressions
+* Simulates production alerting logic
+* Generates clear operational status messages
+
+---
+
+## Three telemetry boolean flags
+
+```python
+is_active = True
+cpu_percent = 94.5
+is_production = True
+```
+
+## Alert Rules
+
+An alert should be triggered if **either** of the following conditions is true:
+
+### Rule 1: Server Offline
+
+```python
+not is_active
+```
+
+The server is not running and requires immediate attention.
+
+### Rule 2: Critical CPU Usage
+
+```python
+cpu_percent > 90.0 and is_production
+```
+
+CPU utilization exceeds 90% while operating in a production environment.
+
+---
+
+## Compound Alert Logic
+
+```python
+should_alert = (not is_active) or (cpu_percent > 90.0 and is_production)
+```
+
+---
+
+
+## Example Evaluation
+
+### Input 1
+
+```python
+is_active = True
+cpu_percent = 94.5
+is_production = True
+```
+
+### Expected Output
+
+```text
+[ALERT] Urgent dispatch! System needs manual intervention.
+```
+
+### Input 2
+
+```python
+is_active = True
+cpu_percent = 74.5
+is_production = True
+```
+
+### Expected Output
+
+```text
+[OK] System operating within safe margin bounds.
+```
+
+
+## Learning Objectives
+
+* Complex boolean evaluations (and, not, or)
+* Logical comparisons and flag validation
+* Control execution states
+
+---
+
 
 ## How to Run
 

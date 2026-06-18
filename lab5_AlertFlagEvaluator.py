@@ -1,6 +1,6 @@
 # Change these values to verify different execution paths!
 is_active = True
-cpu_percent = 94.5
+cpu_percent = 84.5
 is_production = True
 
 # TODO: Build your compound logical matching condition statement
