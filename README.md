@@ -3,7 +3,8 @@
 
 This repository contains solutions for five Python programming labs focused on core programming concepts including user input handling, conditionals, loops, functions, strings, lists, dictionaries, and logical operations.
 
-### Assignment 1: The Smart Survey Onboarding Engine
+### [Assignment 1: The Smart Survey Onboarding Engine](#lab1)
+
 
 ### Assignment 2: The Multi-Cluster IP Audit Tool
 
@@ -14,7 +15,7 @@ This repository contains solutions for five Python programming labs focused on c
 
 ### Assignment 5: System Alert Flag Evaluator
 ---
-
+<a id="lab1"></a>
 ## Lab 1: The Smart Survey Onboarding Engine
 
 This Python program building an entry portal for an automated processing system. The script must interview a human user, gather their basic profile info, and evaluate their clearance tier based on strict age rules.
