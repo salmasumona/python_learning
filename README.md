@@ -3,6 +3,18 @@
 
 This repository contains solutions for five Python programming labs focused on core programming concepts including user input handling, conditionals, loops, functions, strings, lists, dictionaries, and logical operations.
 
+### Assignment 1: The Smart Survey Onboarding Engine
+
+### Assignment 2: The Multi-Cluster IP Audit Tool
+
+### Assignment 3: The Deployment Budget Optimizer
+
+
+### Assignment 4: The Profile Text Normalization Pipeline
+
+### Assignment 5: System Alert Flag Evaluator
+---
+
 ## Lab 1: The Smart Survey Onboarding Engine
 
 This Python program building an entry portal for an automated processing system. The script must interview a human user, gather their basic profile info, and evaluate their clearance tier based on strict age rules.
@@ -284,7 +296,7 @@ REJECTED: Budget Exceeded by $2344.00!
 
 ---
 
-# Lab 4: The Profile Text Normalization Pipeline
+## Lab 4: The Profile Text Normalization Pipeline
 
 The Profile Text Normalization Pipeline is a Python program that clean text array before passing it downstream into production environments.
 
