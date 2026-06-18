@@ -111,7 +111,13 @@ The Multi-Cluster IP Audit Tool is a Python program that analyzes a cloud cluste
 
 ---
 
-## Configuration Example
+## Function Specification
+
+```python
+def calculate_capacity(config):
+```
+
+### Config parameter
 
 ```python
 cluster_config = {
@@ -165,6 +171,120 @@ Cluster Utilization: 62.50%
 
 ---
 
+# Lab 3: The Deployment Budget Optimizer
+
+## Overview
+
+The Deployment Budget Optimizer is a Python program designed to estimate the monthly cost of running cloud server instances and determine whether the deployment stays within a specified budget. 
+---
+
+
+## Features
+
+* Accepts deployment parameters dynamically
+* Calculates monthly cloud infrastructure costs
+* Compares expenses against a budget limit
+* Returns informative approval or rejection messages
+
+---
+
+## Function Specification
+
+```python
+def estimate_deployment_cost(instance_count, hourly_rate, budget_cap):
+```
+
+### Parameters
+
+| Parameter      | Type  | Description                    |
+| -------------- | ----- | ------------------------------ |
+| instance_count | int   | Number of server instances     |
+| hourly_rate    | float | Hourly cost per instance       |
+| budget_cap     | float | Maximum allowed monthly budget |
+
+---
+
+## Cost Calculation Formula
+
+A standard billing month is assumed to contain:
+
+```text
+30 Days × 24 Hours = 720 Hours
+```
+
+Monthly Cost Formula:
+
+```text
+Total Monthly Cost = Instance Count × Hourly Rate × 720
+```
+
+---
+
+## Business Rules
+
+### If Cost Exceeds Budget
+
+```text
+REJECTED: Budget Exceeded by $X!
+```
+
+Where:
+
+```text
+X = Total Cost - Budget Cap
+```
+
+### If Cost Is Within Budget
+
+```text
+APPROVED: Total Estimated Cost is $X.
+```
+
+Where:
+
+```text
+X = Total Monthly Cost
+```
+
+---
+
+## Example Test Cases
+
+```python
+print(estimate_deployment_cost(
+    instance_count=5,
+    hourly_rate=0.45,
+    budget_cap=1500.00
+))
+
+print(estimate_deployment_cost(
+    instance_count=12,
+    hourly_rate=0.85,
+    budget_cap=5000.00
+))
+```
+
+---
+
+## Expected Output
+
+```text
+REJECTED: Budget Exceeded by $120.00!
+REJECTED: Budget Exceeded by $2344.00!
+```
+
+---
+
+## Learning Objectives
+
+* Functions with Parameters
+* Return Values
+* Arithmetic Operations
+* Comparative conditions (> ,<=)
+* Calculated cost against the budget_cap:
+
+---
+
 ## How to Run
 
 1. Save the script as `lab1_SmartSurvey.py`
@@ -187,5 +307,12 @@ python3 lab5_AlertFlagEvaluator.py
 
 ## Technologies Used
 
-* Python 3.x
+* Python 3.14.6
+
+## Author
+
+**Name:** Sumona Salma
+
+**Course:** Python Programming Fundamentals
+
 
