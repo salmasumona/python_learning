@@ -94,7 +94,7 @@ End
 
 ---
 
-# Lab 2: The Multi-Cluster IP Audit Tool
+## Lab 2: The Multi-Cluster IP Audit Tool
 
 
 The Multi-Cluster IP Audit Tool is a Python program that analyzes a cloud cluster configuration and calculates infrastructure utilization. 
@@ -171,7 +171,7 @@ Cluster Utilization: 62.50%
 
 ---
 
-# Lab 3: The Deployment Budget Optimizer
+## Lab 3: The Deployment Budget Optimizer
 
 The Deployment Budget Optimizer is a Python program designed to estimate the monthly cost of running cloud server instances and determine whether the deployment stays within a specified budget. 
 ---
