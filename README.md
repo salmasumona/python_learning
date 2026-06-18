@@ -3,17 +3,19 @@
 
 This repository contains solutions for five Python programming labs focused on core programming concepts including user input handling, conditionals, loops, functions, strings, lists, dictionaries, and logical operations.
 
+---
+
 ### [Assignment 1: The Smart Survey Onboarding Engine](#lab1)
 
 
-### Assignment 2: The Multi-Cluster IP Audit Tool
+### [Assignment 2: The Multi-Cluster IP Audit Tool](#lab2)
 
-### Assignment 3: The Deployment Budget Optimizer
+### [Assignment 3: The Deployment Budget Optimizer](#lab3)
 
 
-### Assignment 4: The Profile Text Normalization Pipeline
+### [Assignment 4: The Profile Text Normalization Pipeline](#lab4)
 
-### Assignment 5: System Alert Flag Evaluator
+### [Assignment 5: System Alert Flag Evaluator](#lab5)
 ---
 <a id="lab1"></a>
 ## Lab 1: The Smart Survey Onboarding Engine
@@ -105,7 +107,7 @@ End
 * String Interpolation (f-strings)
 
 ---
-
+<a id="lab2"></a>
 ## Lab 2: The Multi-Cluster IP Audit Tool
 
 
@@ -182,7 +184,7 @@ Cluster Utilization: 62.50%
 * Calculate Percentages
 
 ---
-
+<a id="lab3"></a>
 ## Lab 3: The Deployment Budget Optimizer
 
 
@@ -296,7 +298,7 @@ REJECTED: Budget Exceeded by $2344.00!
 * Calculated cost against the budget_cap:
 
 ---
-
+<a id="lab4"></a>
 ## Lab 4: The Profile Text Normalization Pipeline
 
 The Profile Text Normalization Pipeline is a Python program that clean text array before passing it downstream into production environments.
@@ -372,7 +374,7 @@ Sanitized Production Input:
 * Appending dynamic modifications to lists
 
 ---
-
+<a id="lab5"></a>
 ## Lab 5: System Alert Flag Evaluator
 
 
