@@ -9,7 +9,7 @@ dev_status = input("Are you developer? (Yes/No): ").lower().strip() # Capturing 
 try:
     age = int(age_input) # Type casting to an integer
 except ValueError:
-    # Exit if the string cannot be converted
+    # Exit if the input cannot be converted
     print("Error: Enter valid age.")
     exit()
 
