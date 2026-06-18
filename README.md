@@ -173,8 +173,6 @@ Cluster Utilization: 62.50%
 
 # Lab 3: The Deployment Budget Optimizer
 
-## Overview
-
 The Deployment Budget Optimizer is a Python program designed to estimate the monthly cost of running cloud server instances and determine whether the deployment stays within a specified budget. 
 ---
 
@@ -282,6 +280,82 @@ REJECTED: Budget Exceeded by $2344.00!
 * Arithmetic Operations
 * Comparative conditions (> ,<=)
 * Calculated cost against the budget_cap:
+
+---
+
+# Lab 4: The Profile Text Normalization Pipeline
+
+The Profile Text Normalization Pipeline is a Python program that clean text array before passing it downstream into production environments.
+
+---
+
+
+## Features
+
+* Processes multiple text records automatically
+* Removes leading and trailing whitespace
+* Converts text to lowercase
+* Stores cleaned data in a separate list
+* Displays both original and sanitized results for comparison
+
+---
+
+## Raw Data
+
+```python id="x9m7tw"
+raw_survey_inputs = [
+    "  ALICE SMITH ",
+    " dhaka, BANGLADESH  ",
+    "  mLOpS_ENGineer  ",
+    "  LIAM,MAYA "
+]
+```
+
+---
+
+## Data Cleaning Process
+
+Each record undergoes the following transformations:
+
+### Step 1: Remove Extra Spaces
+
+```python id="i3q7am"
+text.strip()
+```
+
+### Step 2: Convert to Lowercase
+
+```python id="39a8e1"
+text.lower()
+```
+
+### Step 3: Store in Sanitized List
+
+```python id="v32kw8"
+sanitized_records.append(cleaned_text)
+```
+
+---
+
+## Expected Output
+
+```text id="khnffg"
+Raw Input:
+['  ALICE SMITH ', ' dhaka, BANGLADESH  ', '  mLOpS_ENGineer  ', '  LIAM,MAYA ']
+
+Sanitized Production Input:
+['alice smith', 'dhaka, bangladesh', 'mlops_engineer', 'liam,maya']
+```
+
+---
+
+## Learning Objectives
+
+* Work with Strings and String Methods(.strip(), .lower())
+* Use `.strip()` to remove whitespace
+* Use `.lower()` to standardize text
+* Lists and Loops
+* Appending dynamic modifications to lists
 
 ---
 
