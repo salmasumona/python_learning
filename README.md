@@ -5,17 +5,17 @@ This repository contains solutions for five Python programming labs focused on c
 
 ---
 
-### [Assignment 1: The Smart Survey Onboarding Engine](#lab1)
+### [Exercise 1: The Smart Survey Onboarding Engine](#lab1)
 
 
-### [Assignment 2: The Multi-Cluster IP Audit Tool](#lab2)
+### [Exercise 2: The Multi-Cluster IP Audit Tool](#lab2)
 
-### [Assignment 3: The Deployment Budget Optimizer](#lab3)
+### [Exercise 3: The Deployment Budget Optimizer](#lab3)
 
 
-### [Assignment 4: The Profile Text Normalization Pipeline](#lab4)
+### [Exercise 4: The Profile Text Normalization Pipeline](#lab4)
 
-### [Assignment 5: System Alert Flag Evaluator](#lab5)
+### [Exercise 5: System Alert Flag Evaluator](#lab5)
 ---
 <a id="lab1"></a>
 ## Lab 1: The Smart Survey Onboarding Engine
