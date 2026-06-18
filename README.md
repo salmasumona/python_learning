@@ -176,11 +176,11 @@ Cluster Utilization: 62.50%
 3. Execute:
 
 ```bash
-python lab1_SmartSurvey.py
-python lab2_ClusterAudit.py
-python lab3_BudgetOptimizer.py
-python lab4_TextNormalization.py
-python lab5_AlertFlagEvaluator.py
+python3 lab1_SmartSurvey.py
+python3 lab2_ClusterAudit.py
+python3 lab3_BudgetOptimizer.py
+python3 lab4_TextNormalization.py
+python3 lab5_AlertFlagEvaluator.py
 ```
 
 ---
