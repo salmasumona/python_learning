@@ -1,5 +1,9 @@
 
-# Lab 1: The Smart Survey Onboarding Engine
+# Python Fundamentals Lab Assignments
+
+This repository contains solutions for five Python programming labs focused on core programming concepts including user input handling, conditionals, loops, functions, strings, lists, dictionaries, and logical operations.
+
+## Lab 1: The Smart Survey Onboarding Engine
 
 ## Overview
 
